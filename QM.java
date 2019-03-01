@@ -8,7 +8,7 @@ public class QM
     public static void main(Hashtable hi)throws IOException
     {
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/yadu/NetBeansProjects/QM/output.txt",true));
+        BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/venkatramana/QM/output.txt",true));
         int min[],nmin,nvar,i,j,k,a[][],x,y,pos=0,b[][],flag=0,count=0,c,pi[][],flag2=0,c2=0,checker[],flag1=0,dash[],c1=0,c3=0,decimal,no9;
         String inp[];
         boolean check=false;
